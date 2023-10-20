@@ -1,0 +1,8 @@
+Write a blog about objects and its internal representation in Javascript:-
+
+Objects and Internal Representation:-
+1. Objects is most important data-type in Javascript. It is a building blocks for modern JavaScript. 
+2. Objects is different primitive data-types(Number, String, Boolean, null, undefined and symbol).
+3. Objects are more complex and each object contain any combination of these primitive data-types.
+4. Objects can hold many values in form of Keyvalue pair.
+5. keys can be variables or functions and are called properties and methods, respectively, in the context of an object.

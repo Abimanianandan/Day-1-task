@@ -1,0 +1,15 @@
+Write a blog on Difference between HTTP1.1 vs HTTP2:-
+
+HTTP1.1:-
+1. It works on the textual format.
+2. Multiplexing:- It wo rks one resourse complete after other resourse loading.one resource cannot be loaded, it blocks all the other resources behind it.
+3. Server push:- A server only send the content to a client device ask for it.This method is not work for modern webpages. 
+4. Header compression:- Small files load more faster than large files and It compresses data by itself.
+5. priority:- Prioritization affects a webpages loading time. 
+
+HTTP2:-
+1. It works on the binary protocol.
+2. Multiplexing:- It is use to single TCP connection to send a multiple data at the same time. so that no one resource blocks any other resource.
+3. Server push:- The server  send a message to the client, what pushed content to expect. The message contain a table of contents.
+4. Header compression:- It is use to  advanced compression method HPACK.
+5. priority:- Developer decide the which page resources will load first, every time.
